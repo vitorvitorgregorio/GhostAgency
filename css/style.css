@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+.transparent {
+    background-color: rgba(0, 0, 0, 0.089);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.075);
+}
+.logo {
+    animation: anim-logo 2s linear;
+}
+.first-button {
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+}
+.radius-button {
+    border-radius: 90%  30% 90% 20% / 90% 30% 90% 90%;
+}
+body,html {
+    background-image: linear-gradient(90deg, #E8CAFB, #8A87C1);
+    font-family: 'Poppins';
+}
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 110%;
+    color: #303056;
+}
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #303056;
+}
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #F8F8FD;
+}
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8F8FD;
+}
+.adino {
+    animation: anim 2s ease-out alternate infinite;
+}
+.skull {
+    animation: anim-pupkim 2s ease-out alternate infinite;
+}
+.gradient2 {
+    background-image: linear-gradient(90deg, #5B874B, #0c3720dc);
+    
+}
+.gradient2 h1, p, button {
+    color: whitesmoke;
+}
+.gradient3 {
+    background-image: linear-gradient(90deg, #2e0916d0, #301658e7);
+    
+}
+@keyframes anim{
+    0% {
+        transform:  translatey(0px) translatex(0px);
+    }
+    100% {
+        transform: translatey(-20px) translatex(-6px);
+    }
+    
+}
+@keyframes anim-pupkim{
+    0% {
+        transform:  translatey(0px) translatex(0px);
+    }
+    100% {
+        transform: translatey(-60px) translatex(-6px);
+    }
+    
+}
+
+@keyframes anim-logo{
+    0% {
+        transform: translatex(-200px);
+    }
+    100% {
+        transform:  translatex(0px);
+    }
+    
+}
+
